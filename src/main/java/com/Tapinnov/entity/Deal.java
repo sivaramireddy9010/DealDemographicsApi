@@ -20,8 +20,8 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-//@AllArgsConstructor
-//@NoArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 public class Deal {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
